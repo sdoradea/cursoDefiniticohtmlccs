@@ -1,3 +1,4 @@
 #ignorar imagenes con extencion jpeg, jpg
 *.jpeg
 *.jpg
+*.mp4
