@@ -1,0 +1,20 @@
+p{
+    color: blue;
+    font-size: 36px;
+}
+
+/* selector por class */
+.parrafo{
+    color: red;
+    font-size: small;
+}
+
+/* selector por id*/
+#texto{
+    color: blueviolet;
+    font-size: larger;
+}
+#links{
+    color: aquamarine;
+    font-size: medium;
+}
