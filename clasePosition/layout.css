@@ -4,17 +4,19 @@
     padding: 0;
 }
 header {
-    width: 100%;
+    display: inline-block;
+    width: 100vw;
+    height: 3vw;
     overflow: hidden;
     background-color: blueviolet;
 }
-header .logo {
-    float: left;
-}
-header .nav {
-    float: right;
+.logo {
+    display: inline-block;
 }
 .nav {
+    display: inline-block;
+}
+.nav__barra{
     background-color: pink;
     list-style: none;
     text-align: center;
@@ -22,15 +24,15 @@ header .nav {
 .nav a {
     text-decoration: none;
 }
-.nav li {
+.nav__barra li {
     display: inline-block;
     font-size: 20px;
-    margin: 10px 0;
     padding-left: 20px;
     padding-right: 20px;
 }
 main {
-    width: 100%;
+    width: 100vw;
+    height: 92vh;
     overflow: hidden;
     background-color: burlywood;
 }
@@ -42,39 +44,42 @@ main {
 
 }
 #one {
-    width: 250px;
+    width: 200px;
     height: 150px;
+    margin: 25px;
     border-radius: 5px;
     background-color: red;
     text-decoration: none;
-    position: relative;
 }
 #two {
-    width: 250px;
+    width: 200px;
     height: 150px;
+    margin: 25px;
     border-radius: 5px;
     background-color: red;
     text-decoration: none;
 }
 #three {
-    width: 250px;
+    width: 200px;
     height: 150px;
+    margin: 25px;
     border-radius: 5px;
     background-color: red;
+    text-decoration: none;
 }
 #four {
-    width: 250px;
+    width: 200px;
     height: 150px;
+    margin: 25px;
     border-radius: 5px;
     background-color: red;
+    text-decoration: none;
 }
 section{
-    float: right;
-    width: 75vw;
-    background-color: aqua;
+    display: inline-block;
+    width: 80vw;
 }
 .container {
-    display: inline;
     background-color: aquamarine;
 
 }
@@ -83,4 +88,10 @@ footer {
 }
 .social-net {
     background-color: forestgreen;
+}
+.social-net .redes {
+    display: inline-block;
+}
+.social-net .info {
+float: right;
 }

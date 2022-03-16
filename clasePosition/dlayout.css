@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: blueviolet;
+}
+header {
+    background-color: blueviolet;
+    height: 10vh;
+}
+.logo {
+    display: inline-block;
+}
+.menu-barra {
+    display: inline-block;
+    position: relative;
+    left: 100vh;
+}
+aside {
+    width: 20%;
+    height: 78vh;
+    display: inline-block;
+    position: relative;
+    top: 9px;
+}
+.elements {
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+.elements p {
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+
+}
+main {
+    display: inline-block;
+    width: 80vw;
+    height: 78.1vh;
+    background-color: coral;
+    position: absolute;
+    bottom: 89px;
+}
+footer {
+    height: 10vh;
+    background-color: blueviolet;
+}
+.redes {
+    display: inline-block
+}
+.info {
+    display: inline-block;
+}
