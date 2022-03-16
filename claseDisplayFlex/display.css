@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.container {
+    border: .3rem solid black;
+    display: flex;
+}
+.box {
+    width: 10rem;
+    height: 10rem;
+}
+.box1 {
+    background-color: blue;
+}
+.box2 {
+    background-color: blueviolet;
+}
+.box3 {
+    background-color: burlywood;
+}
+.box4 {
+    background-color: red;
+}
+.box5 {
+    background-color: blanchedalmond;
+}
+.box6 {
+    background-color: green;
+}
+/*
+Ejemplo 2 -
+ >>>>>> flex-wrap: wrap <<<<<<
+ La propiedad flex-wrap - especifica si los elementos "hijos" son obligados a permanecer en una misma línea o pueden fluir en varias líneas.
+>>>>>> flex-wrap: wrap-reverse <<<<<<
+lo mismo pero comenzando a ordenaar desde el ultimo elemento al primero.
+>>>>>> justify-content: center <<<<<<
+alinia todo el contendio al centro, tambien tiene la opcion -end y start que alinia las cosas a la derecha o la izquierda
+>>>>>> justify-content: space-around <<<<<<
+divide el contenido o contenedores con un espacio automatico pero no es regular
+>>>>>> justify-content: space-evenly <<<<<<
+divide el contenido o contenedores con un espacio automatico igual para todo los elementos sin importar cuanto cresca el espacio.
+*/
+.container2 {
+    border: .3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.boxa {
+    width: 10rem;
+    height: 10rem;
+}
+.box1a {
+    background-color: blue;
+}
+.box2a {
+    background-color: blueviolet;
+}
+.box3a {
+    background-color: burlywood;
+}
+.box4a {
+    background-color: red;
+}
+.box5a{
+    background-color: blanchedalmond;
+}
+.box6a {
+    background-color: green;
+}
+
+/*
+align-item alinia de forma vertical, center, flex-start, flex-end >> 
+tambien existe stretch, estira los elementos al 100% del contenedor padre
+al contrario usando baseline, toma el espacio de su contenido.
+
+order cambiar el orden de los elementos sin necesidad de modificar el html, 
+a tomar a concideracion los elementos que no tengan order, seran enviados a la izquierda
+
+flex-grow: 1; >> hace que el elemento cresta una posicion y ocupe el espacio vacio del navegador
+
+*/
+.container3 {
+    border: .3rem solid black;
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+.boxb {
+    width: 10rem;
+    height: 10rem;
+}
+.box1b {
+    background-color: blue;
+    flex-grow: 1;
+}
+.box2b {
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+.box3b {
+    background-color: burlywood;
+}
+.box4b {
+    background-color: red;
+}
+.box5b{
+    background-color: blanchedalmond;
+}
+.box6b {
+    background-color: green;
+}
+/*
+flex-basis > especifíca la base flexible, la cual es el tamaño inicial de un elemento flexible. 
+Ésta propiedad determina el tamaño de una caja de contenidos
+
+flex-grow > especifica el factor de crecimiento de un elemento flexible en su dirección principal.
+El factor de crecimiento especifica qué cantidad del espacio restante dentro del contenedor flexible.
+*/
+.container4 {
+    border: .3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxc {
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+.box1c {
+    background-color: blue;
+}
+.box2c {
+    background-color: blueviolet;
+}
+.box3c {
+    background-color: burlywood;
+}
+.box4c {
+    background-color: red;
+}
+.box5c {
+    background-color: blanchedalmond;
+}
+.box6c {
+    background-color: green;
+}
