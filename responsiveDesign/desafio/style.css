@@ -7,7 +7,7 @@ html {
     font-size: 62.5%;
 }
 header {
-    width: 100vw;
+    width: 100%;
     height: 10vh;
     background-color: #125C13;
 }
@@ -15,13 +15,13 @@ header {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 .nav-container a {
     text-decoration: none;
     font-size: 1.5rem;
-    padding: 0.2rem;
+    
     color: white;
 }
 .nav-container a:hover {
@@ -36,38 +36,40 @@ header {
 }
 main {
     width: 100vw;
-    height: 100vh;
+    background-color: antiquewhite;
 }
-.container {
+.box-container {
     display: flex;
     flex-wrap: wrap;
 }
-.c1, .c2, .c3, .c4, .c5 {
+.c1, .c2, .c3, .c4, .c5{
     width: 100%;
-    min-width: 150px;
-    height: 150px;
-}
-.c4{
-    height: auto;
-}
-.c1 {
-    background-color: #789395;
-}
-.c2 {
-    background-color: #94B49F;
-}
-.c3 {
-    background-color: #B4CFB0;
+    min-width: 15rem;
+    height: 15rem;
 }
 .c4 {
-    background-color: #E5E3C9;
+    height: auto;
+}
+
+.c1 {
+    background-color: blue;
+}
+.c2 {
+    background-color: green;
+}
+.c3 {
+    background-color: red;
+}
+.c4 {
+    background-color: aqua;
 }
 .c5 {
-    background-color: #083336;
+    background-color: blueviolet;
 }
 
 footer {
-    width: 100vw;
+    background-color: #125C13;
+    width: 100%;
     height: 10vh;
 }
 
