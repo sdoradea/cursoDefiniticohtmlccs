@@ -20,8 +20,7 @@ header {
 }
 .nav-container a {
     text-decoration: none;
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem; 
     color: white;
 }
 .nav-container a:hover {
@@ -52,20 +51,72 @@ main {
 }
 
 .c1 {
-    background-color: blue;
+    height: auto;
 }
 .c2 {
-    background-color: green;
+    height: auto;
+    font-size: 2rem;
+    text-align: left;
+    border: 0.2rem;
+    border-radius: 0.5rem;
+    text-align: justify;
+}
+.c2 h1{
+    text-align: center;
+    font-size: 3vw;
 }
 .c3 {
-    background-color: red;
+    display: none;
+    height: auto;
 }
-.c4 {
-    background-color: aqua;
+
+.c5 {
+    background-color: antiquewhite;
+}
+.c6 {
+    width: 100%;
+    height: 100%;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.c6 h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+figure {
+    display: flex;
+}
+.banner {
+    width: 100%;
+}
+.reflex {
+    width: 100%;
 }
 .c5 {
-    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
+.foto-1, .foto-2, .foto-3, .foto-4 {
+    width: 15rem;
+    height: 15rem;
+}
+.c5 {
+    height: auto;
+}
+.foto-1{
+    background-color: red;
+}
+.foto-2 {
+    background-color: aqua;
+}
+.foto-3 {
+    background-color: yellow;
+}
+.foto-4 {
+    background-color: blue;
+}
+
 
 footer {
     background-color: #125C13;
@@ -73,9 +124,39 @@ footer {
     height: 10vh;
 }
 
-@media (min-width:321px){
+@media (min-width:640px){
     .nav-container a {
-        font-size: 3rem;
+        font-size: 3vw;
+        padding: 1rem;
+    }
+    .c4 {
+        display: flex;
+    }
+    .c2, .c3 {
+        width: 50%;
+    }
+    .c3 {
+        display:contents;
+    }
+}
+@media (min-width: 800px) {
+    header {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    main {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav-container a {
+        font-size: 2.5rem;
         padding: 1rem;
     }
 }   
