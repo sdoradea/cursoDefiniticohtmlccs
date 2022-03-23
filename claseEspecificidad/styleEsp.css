@@ -8,11 +8,11 @@ h1 {
     color: purple;
     margin-bottom: 10px;
 }
-.title {
+.title .title{
     font-size: 18px;
     font-family: monospace;
 }
-.nav {
+#nav {
     margin-top: 10px;
     list-style-type: none;
     padding-left: 0px;
